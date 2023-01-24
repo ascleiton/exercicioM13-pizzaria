@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-M11</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="container d-flex align-items-center">
+            <img src="./images/logopizza.png" alt="Logo do SPFC">
+            <h1 class="title">Pizzaria Canápolis</h1>
+        </div>
+    </header>
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="./images/pizz(1) - Copia.png" alt="Imagem de três pizzas">
+                <div class="carousel-caption">
+                    <h4>Foto: Pizzas saindo do forno</h4>
+                    <small>Muitas variedades em pizzas doces e salgadas.</small>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="./images/pizzaforno.jpg" alt="Imagem de 2 pizzas">
+                <div class="carousel-caption">
+                    <h4>Foto: Pizzas saindo do forno</h4>
+                    <small>Pizzas ao ponto, para agradar até os mais exigentes.</small>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container">
+        <h2>Nossos sabores:</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-sm-block pt-2">
+                <article class="card">
+                    <header class="card-header">
+                        <h4 class="card-title text-center">Bacon</h4>
+                    </header>
+                    <img src="./images/bacon.png" alt="Pizza bacon">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Ingredientes: </strong>tomate, queijo mozzarella, bacon</p>
+                        <p><strong>Valor: </strong>R$ 45,00</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-success">Adicionar</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-block pt-2">
+                <article class="card">
+                    <header class="card-header text-center">
+                        <h4>Calabresa</h4>
+                    </header>
+                    <img class="w-100" src="./images/calabresa.png" alt="pizza calabresa">
+                    <div class="card-body">
+                        <p><strong>Ingredientes:</strong> tomate, queijo mozzarella, calabresa</p>
+                        <p><strong>Valor: </strong>R$ 45,00</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-success">Adicionar</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-block pt-2">
+                <article class="card">
+                    <header class="card-header text-center">
+                        <h4>Mozzarella</h4>
+                    </header>
+                    <img src="./images/muçarela.png" alt="Pizza mozzarella">
+                    <div class="card-body">
+                        <p><strong>Ingredientes: </strong>tomate, queijo mozzarella</p>
+                        <p><strong>Valor: </strong>R$ 45,00</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-success">Adicionar</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
